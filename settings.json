@@ -1,0 +1,7 @@
+{
+  "editor.minimap.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.startupEditor": "none",
+  "workbench.panel.defaultLocation": "right"
+}
