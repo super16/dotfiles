@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/Library/Python/3.11/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 
 # #########################################################
 # ZSH                                                     #

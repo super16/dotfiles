@@ -25,5 +25,7 @@ make zsh
 ### Requires
 
 * [oh my zsh](https://ohmyz.sh/)
+* [pipenv](https://pipenv.pypa.io/)
 * [pnpm](https://pnpm.io/)
+* [poetry](https://python-poetry.org/)
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
