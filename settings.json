@@ -1,6 +1,9 @@
 {
   "editor.minimap.enabled": false,
   "git.openRepositoryInParentFolders": "never",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "Menlo",
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.startupEditor": "none",
   "workbench.panel.defaultLocation": "right"
