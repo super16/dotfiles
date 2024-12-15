@@ -1,4 +1,11 @@
 # #########################################################
+# Base                                                    #
+# #########################################################
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# #########################################################
 # Plugins                                                 #
 # #########################################################
 
@@ -14,22 +21,6 @@ source $ZSH/oh-my-zsh.sh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # #########################################################
-# Conda                                                   #
-# #########################################################
-
-__conda_setup="$('$HOME/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "$HOME/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="$HOME/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-
-# #########################################################
 # pnpm                                                    #
 # #########################################################
 
@@ -43,4 +34,4 @@ esac
 # PATH                                                    #
 # #########################################################
 
-export PATH=$HOME/bin:$HOME/Library/Python/3.12/bin:/usr/local/bin:$HOME/.local/bin:/opt/homebrew/opt/libpq/bin:$PATH
+export PATH=$HOME/bin:$HOME/Library/Python/3.11/bin:/usr/local/bin:$HOME/.local/bin:/opt/homebrew/opt/libpq/bin:$PATH
