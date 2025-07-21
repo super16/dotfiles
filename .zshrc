@@ -9,7 +9,19 @@ export LC_ALL=en_US.UTF-8
 # Plugins                                                 #
 # #########################################################
 
-plugins=(git poetry)
+plugins=(
+    aws
+    brew
+    colorize
+    docker
+    docker-compose
+    git
+    kubectl
+    minikube
+    npm
+    pipenv
+    ssh
+)
 
 # #########################################################
 # ZSH                                                     #

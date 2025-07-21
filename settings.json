@@ -1,10 +1,18 @@
 {
-  "editor.minimap.enabled": false,
-  "git.openRepositoryInParentFolders": "never",
-  "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontFamily": "Menlo",
-  "workbench.colorTheme": "Default Dark Modern",
-  "workbench.startupEditor": "none",
-  "workbench.panel.defaultLocation": "right"
+  "icon_theme": "Catppuccin Mocha",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Monospace dark"
+  },
+  "terminal": {
+    "dock": "right"
+  }
 }
