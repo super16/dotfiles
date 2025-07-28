@@ -1,18 +1,20 @@
 {
+  "buffer_font_size": 14,
   "icon_theme": "Catppuccin Mocha",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
-  "vim_mode": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 14,
+  "terminal": {
+    "detect_venv": "off",
+    "dock": "right",
+    "font_family": "FiraMono Nerd Font Propo"
+  },
   "theme": {
     "mode": "system",
     "light": "One Light",
     "dark": "Monospace dark"
   },
-  "terminal": {
-    "dock": "right"
-  }
+  "ui_font_size": 16,
+  "vim_mode": true
 }

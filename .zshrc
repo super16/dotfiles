@@ -46,4 +46,8 @@ esac
 # PATH                                                    #
 # #########################################################
 
-export PATH=$HOME/bin:$HOME/Library/Python/3.11/bin:/usr/local/bin:$HOME/.local/bin:/opt/homebrew/opt/libpq/bin:$PATH
+export PATH=$HOME/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
+export PATH=/opt/homebrew/opt/libpq@16/bin:$PATH
+export PATH=/opt/homebrew/opt/libpq/bin:$PATH
