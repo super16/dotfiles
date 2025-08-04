@@ -6,6 +6,7 @@
 * [pipenv](https://pipenv.pypa.io/)
 * [pnpm](https://pnpm.io/)
 * [poetry](https://python-poetry.org/)
+* [python-lsp-server](https://github.com/python-lsp/python-lsp-server)
 * [zed](https://zed.dev/)
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 

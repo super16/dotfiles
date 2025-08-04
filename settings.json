@@ -1,6 +1,20 @@
 {
   "buffer_font_size": 14,
   "icon_theme": "Catppuccin Mocha",
+  "languages": {
+    "Python": {
+      "format_on_save": "off",
+      "language_servers": ["pylsp", "!pyright"],
+      "preferred_line_length": 120
+    }
+  },
+  "lsp": {
+    "pylsp": {
+      "binary": {
+        "path": "pylsp"
+      }
+    }
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
