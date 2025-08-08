@@ -16,4 +16,4 @@ zsh:
 	@echo "✂️ Copy .zshrc to home directory and the current config is backed up as .zshrc_prev"
 	@cp "${HOME}/.zshrc" "${HOME}/.zshrc_prev"
 	@cp .zshrc "${HOME}/.zshrc"
-	@source "${HOME}/.zshrc"
+	@exec zsh

@@ -2,6 +2,9 @@
   "buffer_font_size": 14,
   "icon_theme": "Catppuccin Mocha",
   "languages": {
+    "GraphQL": {
+      "format_on_save": "off"
+    },
     "Python": {
       "format_on_save": "off",
       "language_servers": ["pylsp", "!pyright"],
@@ -27,7 +30,7 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Monospace dark"
+    "dark": "Zedokai Darker (Filter Octagon)"
   },
   "ui_font_size": 16,
   "vim_mode": true
