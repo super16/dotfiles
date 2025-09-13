@@ -2,13 +2,35 @@
   "buffer_font_size": 14,
   "icon_theme": "Catppuccin Mocha",
   "languages": {
+    "CSS": {
+      "format_on_save": "off",
+      "tab_size": 2
+    },
     "GraphQL": {
+      "format_on_save": "off"
+    },
+    "HTML": {
+      "format_on_save": "off",
+      "tab_size": 2
+    },
+    "JavaScript": {
       "format_on_save": "off"
     },
     "Python": {
       "format_on_save": "off",
       "language_servers": ["pylsp", "!pyright"],
       "preferred_line_length": 120
+    },
+    "Svelte": {
+      "format_on_save": "off"
+    },
+    "TypeScript": {
+      "format_on_save": "off",
+      "prettier": { "allowed": false }
+    },
+    "Vue.js": {
+      "format_on_save": "off",
+      "tab_size": 2
     }
   },
   "lsp": {
